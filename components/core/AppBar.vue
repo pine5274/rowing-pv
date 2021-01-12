@@ -11,7 +11,7 @@
         <div class="d-flex align-center">
 
           <v-toolbar-title class="primary--text headline">
-            <span class="font-weight-bold">Rowing</span>PV
+            <span class="font-weight-bold">Rowing</span>
           </v-toolbar-title>
         </div>
 
@@ -24,7 +24,6 @@
           <v-btn
             v-for="(link, i) in links"
             :key="i"
-            :to="{name: link}"
             active-class="primary--text"
             class="subtitle-1 ml-1"
             exact

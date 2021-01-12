@@ -9,9 +9,6 @@
       <v-list-item
         v-for="(link, i) in links"
         :key="i"
-        :to="{
-          name: link
-        }"
         active-class="primary--text font-weight-bold"
         class="subtitle-1"
         exact
