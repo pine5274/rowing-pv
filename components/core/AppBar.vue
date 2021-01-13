@@ -2,17 +2,17 @@
   <v-app-bar
     id="core-app-bar"
     app
-    color="white"
-    elevate-on-scroll
-    height="96"
+    color="rgba(0, 0, 0, 0)"
+    flat
+    height="70"
   >
     <v-container>
       <v-row>
         <div class="d-flex align-center">
 
-          <v-toolbar-title class="primary--text headline">
+          <!-- <v-toolbar-title class="primary--text headline">
             <span class="font-weight-bold">Rowing</span>
-          </v-toolbar-title>
+          </v-toolbar-title> -->
         </div>
 
         <v-spacer />

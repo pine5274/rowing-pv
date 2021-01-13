@@ -7,11 +7,7 @@
   >
     <hero
       class="text-center white--text align-center"
-      height="30vh"
     >
-      <h1 class="display-2">
-        Heather Nadine's Blog
-      </h1>
     </hero>
 
     <v-responsive
@@ -29,7 +25,7 @@
             cols="12"
             md="4"
           >
-            <post-card :post="post" />
+            <!-- <post-card :post="post" /> -->
           </v-col>
         </v-row>
       </v-container>

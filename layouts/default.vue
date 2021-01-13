@@ -2,8 +2,8 @@
   <v-app>
     <core-app-bar />
     <core-drawer />
-    <v-main>
-      <v-container>
+    <v-main class="pa-0">
+      <v-container fluid class="pa-0">
         <nuxt />
       </v-container>
     </v-main>
