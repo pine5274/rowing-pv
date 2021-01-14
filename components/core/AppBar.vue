@@ -8,12 +8,11 @@
   >
     <v-container>
       <v-row>
-        <div class="d-flex align-center">
-
-          <!-- <v-toolbar-title class="primary--text headline">
-            <span class="font-weight-bold">Rowing</span>
-          </v-toolbar-title> -->
-        </div>
+        <!-- <div class="d-flex align-center"> -->
+          <v-toolbar-title class="white--text text-h3 font-weight-black">
+            <span>Row</span><span class="text-opacity-06">PV</span>
+          </v-toolbar-title>
+        <!-- </div> -->
 
         <v-spacer />
 
@@ -25,9 +24,9 @@
             v-for="(link, i) in links"
             :key="i"
             active-class="primary--text"
-            class="subtitle-1 ml-1"
+            class="subtitle-1 ml-1 accent--text text-title"
             exact
-            min-width="128"
+            min-width="100"
             text
           >
             {{ link }}
@@ -61,3 +60,9 @@
     },
   }
 </script>
+
+<style scoped>
+.text-opacity-06 {
+  opacity: 0.7;
+}
+</style>

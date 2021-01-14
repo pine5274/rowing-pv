@@ -10,10 +10,10 @@
   </base-hero> -->
     <v-img :src="require('@/assets/Eoy74EFVoAkTZA_ 2.jpeg')"
     max-height="45vh"
-    gradient="to top right, rgba(213, 51, 105, 0.5), rgba(203, 173, 109, 0.5)"
+    gradient="to top right, rgba(213, 51, 105, 0.5), rgba(203, 173, 109, 0.7)"
     >
         <!-- <div class="fill-height bottom-gradient"></div> -->
-        <h1 class="display-2">Rowing    PV</h1>
+        <h1 class="display-2">Rowing PV</h1>
     </v-img>
 </template>
 
