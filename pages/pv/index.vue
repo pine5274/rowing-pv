@@ -16,7 +16,6 @@
     >
       <v-container>
 
-
         <v-row>
           <v-col
             v-for="(post, i) in posts"
@@ -25,7 +24,7 @@
             cols="12"
             md="4"
           >
-            <!-- <post-card :post="post" /> -->
+            <pv-card :post="post" />
           </v-col>
         </v-row>
       </v-container>

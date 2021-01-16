@@ -1,11 +1,13 @@
 <template>
-  <v-app-bar
-    id="core-app-bar"
-    app
-    color="rgba(0, 0, 0, 0)"
-    flat
-    height="70"
-  >
+    <v-app-bar
+        id="core-app-bar"
+        app
+        color="rgba(0, 0, 0, 0.18)"
+        height="65"
+        hide-on-scroll
+        elevation="2"
+        scroll-threshold="200"
+    >
     <v-container>
       <v-row>
         <!-- <div class="d-flex align-center"> -->
